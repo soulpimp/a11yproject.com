@@ -96,7 +96,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
     <button role="tab" aria-selected="false" aria-controls="panel_2" tabindex="-1">Oranges</button>
   </div>
   <div id="panel_1" aria-label="Apples" role="tabpanel" tabindex="0">...</div>
-  <div id="panel_1" aria-label="Oranges" role="tabpanel" hidden>...</div>
+  <div id="panel_2" aria-label="Oranges" role="tabpanel" hidden>...</div>
   ```
 
   Each element has an ARIA role and attributes to create a complete Tab Widget.  Note: as of June 2019 no screen readers support `aria-controls` by default.
